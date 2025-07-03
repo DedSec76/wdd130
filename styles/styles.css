@@ -31,6 +31,11 @@ main {
     max-width: 500px;
 }
 
+main img {
+    width: 150px;
+    height: auto;
+}
+
 /* Aside */
 aside {
     width: 20rem;
