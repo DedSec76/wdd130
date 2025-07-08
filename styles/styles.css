@@ -1,25 +1,31 @@
+:root {
+    --darkblue-color: darkblue;
+    --auto-heigh: auto;
+    --padding: 1px;
+    --gray-color: gray;
+    --black20-color: rgba(0, 0, 0, 0.2);
+}
 
 nav {
-    background-color: darkblue;
+    background-color: var(--darkblue-color);
     padding: 10px;
 }
 
 nav a {
-    color: white;
+    color: var(--gray-color);
     display: block;
     padding: 20px;
 }
 
 h1 {
-    color: darkblue;
+    color: var(--darkblue-color)
 }
 
 img {
     width: 150px;
-    height: auto;
-    border: 1px solid black;
+    height: var(--auto-heigh);
     padding: 2px;
-    box-shadow: 0 0 30px gray;
+    box-shadow: 0 0 30px var(--gray-color);
 }
 
 p {
@@ -33,30 +39,30 @@ main {
 
 main img {
     width: 150px;
-    height: auto;
+    height: var(--auto-heigh);
 }
 
 /* Aside */
 aside {
     width: 20rem;
     margin: 15px;
-    border: 3px solid rgb(0 0 0 / 0.2);
+    border: 3px solid var(--black20-color);
     padding: 2rem;
     background-color: #eee;
-    color: #333;
+    color: var(--gray-color);
     text-align: center;
 }
 
 aside img {
     width: 200px;
-    height: auto;
+    height: var(--auto-heigh);
 }
 
 /* Footer */
 
 footer {
     margin-top: 10px;
-    border-top: 1px dotted rgba(13, 62, 108, 0.813);
+    border-top: 1px dotted var(--darkblue-color);
     text-align: center;
     font-size: 18px;
 }
