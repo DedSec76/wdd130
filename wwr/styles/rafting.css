@@ -1,0 +1,85 @@
+:root {
+    --primary-color: #40476D;
+    --secondary-color: #ACBEA3;
+    --acent1-color: #EB6534;
+    --acent2-color: #826754;
+    --heading-font: "Funnel Display", sans-serif;
+    --body-font: "DM Serif Text", serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--body-font);
+    color: var(--acent1-color);
+}
+
+header, main, footer {
+    width: 840px;
+    margin: 0 auto;
+}
+
+h1, h2 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+nav, p, section, article {
+    margin: 16px;
+    padding: 8px;
+}
+
+.socialmedia a {
+    text-decoration: none;
+}
+
+/* Main */
+/* Hero Div */
+.hero {
+    position: relative;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+h1 {
+    position: absolute;
+    top: 30px;
+    width: 100%;
+    padding: 16px;
+    text-align: center;
+    opacity: 0.7;
+    background-color: var(--acent1-color);
+    color: #160830;
+}
+
+.hero article {
+    position: absolute;
+    margin: 0 3rem;
+    padding: 0;
+    top: 130px;
+    background-color: var(--secondary-color);
+    opacity: 0.8;
+    color: rgb(1, 1, 71);
+}
+
+.hero article img {
+    float: right;
+    width: 150px;
+    border: 0.7px solid navy;
+    margin: 10px;
+    box-shadow: 5px 0px 30px black;
+}
+
+/* Header */
+header {
+    background-color: var(--primary-color);
+    color: var(--acent2-color);
+}
