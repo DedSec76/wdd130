@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "TikTok Sans", sans-serif;
+}
+
+header {
+    margin: 0 auto;
+    width: 650px;
+}
+
+h1 {
+    margin: 1rem;
+    font-size: 1.5rem;
+    color: navy;
+    text-align: center;
+}
+
+form {
+    background-color: rgb(233, 233, 233);
+    width: 650px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid rgb(211, 211, 211);
+    border-radius: 8px;
+    display: grid;
+}
+
+fieldset {
+    display: grid;
+    gap: 0.5rem;
+    border: 1px solid rgb(0 0 0 / 0.2);
+    padding: 1rem;
+    margin: 1rem;
+}
+
+legend {
+    font-size: 1.1rem;
+    color: navy;
+}
+
+/* label, input, button, select, textarea */
+
+label, input, button, select, textarea {
+    font-family: "Roboto", sans-serif;
+    font-size: 1rem;
+    color: rgb(60, 60, 60);
+}
+
+label {
+    text-align: right;
+    padding-right: 1rem;
+}
+
+input, select, textarea {
+    padding: 0.5rem;
+}
+
+input[type="checkbox"] {
+    width: 15px;
+    height: 15px;
+    vertical-align: bottom;
+}
+button {
+    margin: 0 auto;
+    background-color: navy;
+    color: white;
+    border: 1px solid rgb(183, 183, 183);
+    border-radius: 0.6rem;
+    padding: 0.8rem;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: rgb(107, 107, 216);
+}
+
+footer {
+    margin: 1rem auto 0;
+    padding-top: 7px;
+    width: 650px;
+    text-align: center;
+    font-size: 1rem;
+    color: #777;
+    border-top: 1px solid #ccc;
+}
+
+.form-item {
+    display: grid;
+    align-items: center;
+}
+
+.column1 {
+    grid-template-columns: 3fr 1fr;
+    margin: 0.5rem 0;
+}
+
+.column2 {
+    grid-template-columns: 1fr 2fr;
+}
