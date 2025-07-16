@@ -53,3 +53,13 @@ button:hover {
     cursor: pointer;
     background-color: rgb(59, 59, 255);
 }
+
+code {
+    display: block;
+    color: #fff;
+    background-color: rgb(55, 55, 55);
+    padding: 1rem;
+    border-radius: 2px;
+    width: 400px;
+    margin: 0 auto;
+}
