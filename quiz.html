@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Aldair Rutte - Basic HTML and CSS Quiz">
+    <meta name="author" content="Aldair Rutte">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/quiz.css">
+    <title>My Quiz | Aldair Rutte</title>
+</head>
+<body>
+    <h1>Basic HTML and CSS Quiz</h1>
+
+    <form>
+        <label><span>1. </span>What does the acronym CSS stand for?</label>
+        <input id="q1" name="q1" type="text">
+
+        <label><span>2. </span>How are id and class attributes selected in CSS?</label>
+        <textarea id="q2" name="q2" rows="4"></textarea>
+
+        <label><span>3. </span>Which of the following is a valid CSS comment?</label>
+        <select name="q3" id="q3">
+            <option value="" selected disabled>Choose One</option>
+            <option value="1">/* comment */</option>
+            <option value="2"><code> <!-- comment --></code></option>
+            <option value="3">// comment </option>
+        </select>
+
+        <label><span>4. </span>What is the bottom margin given this declaration?</label>
+        <input id="q4" name="q4" type="number">
+
+        <button type="submit">Submit Quiz</button>
+    </form>
+</body>
+</html>

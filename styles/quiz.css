@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto, Arial';
+    font-size: 1rem;
+}
+
+h1 {
+    text-align: center;
+    color: navy;
+    margin: 1rem 0;
+}
+
+form {
+    background-color: rgb(235, 235, 235);
+    width: 650px;
+    margin: 0 auto;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 1rem;
+    display: grid;
+    gap: 1rem;
+}
+
+input, select, textarea {
+    padding: 0.5rem 0;
+    font-size: 1.2rem;
+    color: rgb(77, 77, 77);
+    font-style: normal;
+}
+
+span {
+    color: navy;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+button {
+    margin: 1rem 0;
+    background-color: navy;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    font-size: 1.2rem;
+    padding: 1rem 0;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: rgb(59, 59, 255);
+}
