@@ -22,7 +22,7 @@ header, main, footer {
     width: 840px;
     margin: 0 auto;
 }
-h1, h2 {
+h1, h2, h3, h4, h4, h5, h6 {
     font-family: var(--heading-font);
     color: var(--primary-color);
 }
@@ -161,4 +161,9 @@ footer .socialmedia a:hover{
     padding: 2px;
     border-radius: 15px;
     background-color: var(--acent2-color);
+}
+
+/* Contact Page */
+form fieldset{
+    display: grid;
 }
