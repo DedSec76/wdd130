@@ -164,6 +164,69 @@ footer .socialmedia a:hover{
 }
 
 /* Contact Page */
-form fieldset{
+#title-contact {
+    margin: 2rem 0;
+    text-align: center;
+}
+
+.employees {
+    width: 100%;
+    background-color: var(--secondary-color);
+    margin: 2rem 0;
     display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+form {
+    margin: 2rem 1rem;
+    padding: 2rem 1rem;
+    box-shadow: 6px 8px 18px rgba(0, 0, 0, 0.365);
+}
+
+form fieldset{
+    padding: 0 1rem 1rem;
+    display: grid;
+    gap: 0.5rem;
+}
+
+form legend {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+input, textarea, label {
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+}
+
+input[type="radio"], input[type="checkbox"] {
+    width: 15px;
+    height: 15px;
+    vertical-align: bottom;
+}
+
+button {
+    margin-top: 2rem;
+    width: 100%;
+    padding: 1rem 0;
+    border: none;
+    border-radius: 3px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: var(--white-color);
+    background-color: var(--acent1-color);
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: var(--acent2-color);
+}
+
+.form-item {
+    display: grid;
+    align-items: center;
+}
+
+.column1 {
+    grid-template-columns: 1fr 2fr;
 }
