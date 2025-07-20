@@ -169,12 +169,30 @@ footer .socialmedia a:hover{
     text-align: center;
 }
 
+h3 {
+    text-decoration: underline;
+}
+
 .employees {
     width: 100%;
-    background-color: var(--secondary-color);
     margin: 2rem 0;
     display: grid;
+    column-gap: 2rem;
     grid-template-columns: repeat(3, 1fr);
+}
+
+.employees img {
+    box-shadow: 4px 5px 8px black;
+    border-radius: 5px;
+    width: 100%;
+    height: 20rem;
+}
+
+.employees figcaption {
+    margin: 1rem 0;
+    text-shadow: 2px 4px 12px rgb(125, 0, 192);
+    text-align: center;
+    font-style: italic;
 }
 
 form {
