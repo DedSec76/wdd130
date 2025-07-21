@@ -3,7 +3,8 @@
     --secondary-color: #ACBEA3;
     --acent1-color: #EB6534;
     --acent2-color: #826754;
-    --white-color: rgb(255, 255, 255);
+    --navy-color: #16226A;
+    --white-color: #FFFFFF;
     --heading-font: "Funnel Display", sans-serif;
     --body-font: "DM Serif Text", serif;
 }
@@ -164,13 +165,25 @@ footer .socialmedia a:hover{
 }
 
 /* Contact Page */
+#contact-body {
+    background-color: var(--secondary-color);
+    color: black;
+}
+
 #title-contact {
     margin: 2rem 0;
     text-align: center;
+    color: var(--navy-color);
 }
 
 h3 {
     text-decoration: underline;
+    color: var(--navy-color);
+}
+
+#email {
+    font-size: 1.1rem;
+    color: var(--navy-color);
 }
 
 .employees {
@@ -196,6 +209,7 @@ h3 {
 }
 
 form {
+    background-color: var(--white-color);
     margin: 2rem 1rem;
     padding: 2rem 1rem;
     box-shadow: 6px 8px 18px rgba(0, 0, 0, 0.365);
@@ -220,7 +234,6 @@ input, textarea, label {
 input[type="radio"], input[type="checkbox"] {
     width: 15px;
     height: 15px;
-    vertical-align: bottom;
 }
 
 button {
@@ -229,13 +242,16 @@ button {
     padding: 1rem 0;
     border: none;
     border-radius: 3px;
-    font-size: 1rem;
+    font-size: 1.2rem;
     font-weight: bold;
-    color: var(--white-color);
+    text-transform: uppercase;
+    text-shadow: 6px 5px 6px #630281;
+    color: black;
     background-color: var(--acent1-color);
 }
 
 button:hover {
+    color: var(--white-color);
     cursor: pointer;
     background-color: var(--acent2-color);
 }
