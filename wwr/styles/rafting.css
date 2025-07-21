@@ -74,7 +74,7 @@ header a {
     height: auto;
 }
 
-h1 {
+#title-about {
     position: absolute;
     top: 30px;
     width: 100%;
@@ -184,7 +184,7 @@ footer .socialmedia a:hover{
 }
 
 #title-contact {
-    margin: 2rem 0;
+    margin: 1rem 0;
     text-align: center;
     color: var(--navy-color);
 }
