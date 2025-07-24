@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,11 +8,14 @@
     <meta name="author" content="Aldair Rutte">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Funnel+Display:wght@300..800&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Funnel+Display:wght@300..800&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="styles/rafting.css">
     <title>White Water Rafting - Trips</title>
 </head>
-<body>
+
+<body id="trips-body">
     <header>
         <img src="images/logo.webp" alt="Rafting Company Logo">
         <nav>
@@ -22,35 +26,81 @@
         </nav>
     </header>
 
-    <main>
+    <div class="container-main">
+        <aside>
+            <h2>Hola soy un aside</h2>
+        </aside>
+        <main>
+            <h1>Trip Pricing for River Rafting Trips</h1>
+            <p>All Prices are per person and subject to a 10% Government Use and Service Fee.
+                For Youth, Group, and other available discounts see: Rafting Specials.
+                Cancellation Policy
+            </p>
 
-        <a href="contact.html">Contact Us to learn more</a>
 
-        <div class="trips">
-            <picture>
-                <img src="" alt="Trip 1">
-                <figcaption>Trip to diente diablo</figcaption>
-            </picture>
-            <picture>
-                <img src="" alt="Trip 1">
-                <figcaption>Trip to diente diablo</figcaption>
-            </picture>
-            <picture>
-                <img src="" alt="Trip 1">
-                <figcaption>Trip to diente diablo</figcaption>
-            </picture>
-        </div>
+            <a href="contact.html">Contact Us to learn more</a>
 
-        <table>
-            <thead>
-                <th>
-                    <td>Available Trips </td>
-                </th>
-            </thead>
-        </table>
+            <div class="trips">
+                <picture>
+                    <img src="" alt="Trip 1">
+                    <figcaption>Trip to diente diablo</figcaption>
+                </picture>
+                <picture>
+                    <img src="" alt="Trip 1">
+                    <figcaption>Trip to diente diablo</figcaption>
+                </picture>
+                <picture>
+                    <img src="" alt="Trip 1">
+                    <figcaption>Trip to diente diablo</figcaption>
+                </picture>
+            </div>
 
-        
-    </main>
+            <table class="info-table">
+                <thead>
+                    <tr>
+                        <th scope="col">Beginner-Intermediate</th>
+                        <th scope="col">Intermediate</th>
+                        <th scope="col">Intermediate-Advanced</th>
+                        <th scope="col">Advanced</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>South Fork American</td>
+                        <td>Middle Fork American</td>
+                        <td>Tuolumne River</td>
+                        <td>Cal Salmon</td>
+                    </tr>
+                    <tr>
+                        <th></th>
+                        <td>Merced River</td>
+                        <td>North Fork Stanislaus</td>
+                        <td>Cherry Creek</td>
+                    </tr>
+                    <tr>
+                        <th></th>
+                        <td></td>
+                        <td>Kaweah River</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td>North Fork American</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td>Goodwin Canyon</td>
+                    </tr>
+                </tbody>
+            </table>
+
+
+        </main>
+        <aside>
+            <h2>Hola soy otro aside</h2>
+        </aside>
+    </div>
 
     <footer>
         <p>&copy; 2025, River Free Rafting - Aldair Rutte 📢</p>
@@ -67,4 +117,5 @@
         </nav>
     </footer>
 </body>
+
 </html>
