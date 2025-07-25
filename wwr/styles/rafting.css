@@ -410,10 +410,16 @@ aside h2 {
     color: var(--white-color);
 }
 
-.info-table {
+/* Table Level */
+
+.level-table {
+    width: 100%;
+    margin-top: 2rem;
+    background-color: var(--white-color);
     border-spacing: 0;
 
     thead {
+        text-align: left;
         text-transform: uppercase;
         color: var(--white-color);
         background-color: var(--acent1-color);
@@ -425,4 +431,50 @@ aside h2 {
         color: var(--black-color);
         padding: 0.3rem 0.4rem;
     }
+}
+
+/* Table info */
+.info-table {
+    margin-top: 2rem;
+    width: 100%;
+    color: var(--black-color);
+    background-color: var(--white-color);
+    border-spacing: 0;
+    border: 1px solid var(--black-color);
+
+    thead > tr > th {
+        text-align: left;
+        padding: 0.3rem 1rem;
+    }
+
+    tbody > tr > td {
+        padding: 0 1rem;
+        color: #4e4e4e;
+    }
+}
+.bg-yellow {
+    background-color: yellow;
+}
+.bg-dark-ye {
+    background-color: #EBB93B;
+}
+.bg-gray {
+    border-spacing: 0;
+    background-color: #ccc;
+}
+.bg-rose {
+    background-color: #BA4a69;
+}
+.bg-green {
+    background-color: #318E31;
+}
+.bg-blue {
+    background-color: #2658A9;
+}
+.white {
+    color: var(--white-color);
+}
+.style-header {
+    
+    color: var(--black-color);
 }
