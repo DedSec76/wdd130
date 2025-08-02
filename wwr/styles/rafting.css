@@ -17,25 +17,41 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 body {
     font-family: var(--body-font);
     color: var(--acent1-color);
 }
-header, main, footer, .container {
+
+header,
+main,
+footer,
+.container {
     width: 840px;
     margin: 0 auto;
 }
-h1, h2, h3, h4, h4, h5, h6 {
+
+h1,
+h2,
+h3,
+h4,
+h4,
+h5,
+h6 {
     font-family: var(--heading-font);
     color: var(--primary-color);
 }
 
-nav, p, section, article {
+nav,
+p,
+section,
+article {
     margin: 16px;
     padding: 8px;
 }
 
-.socialmedia a, header a {
+.socialmedia a,
+header a {
     text-decoration: none;
 }
 
@@ -54,10 +70,12 @@ nav {
     align-items: center;
     font-size: 1.2rem;
 }
+
 header img {
     width: 100px;
     margin: 1rem 4rem;
 }
+
 header a {
     color: var(--white-color);
 }
@@ -110,11 +128,13 @@ header a {
     display: grid;
     grid-template-columns: 1fr auto 1fr;
 }
+
 #history img {
     margin: 1.5rem 1.3rem 0 0.7rem;
     width: 10rem;
     box-shadow: 8px 8px 15px gray;
 }
+
 #history p {
     margin: 1rem 0 0 0;
     padding: 0.6rem;
@@ -142,14 +162,17 @@ header a {
     gap: 1rem;
     text-align: center;
 }
+
 #adventure h2 {
     grid-column-start: 1;
     grid-column-end: 6;
-    
+
 }
+
 #adventure img {
     width: 8rem;
 }
+
 #adventure figcaption {
     color: var(--black-color);
     background-color: var(--secondary-color);
@@ -171,7 +194,8 @@ footer .socialmedia {
     gap: 1rem;
     justify-content: end;
 }
-footer .socialmedia a:hover{
+
+footer .socialmedia a:hover {
     padding: 2px;
     border-radius: 15px;
     background-color: var(--acent2-color);
@@ -234,7 +258,7 @@ form {
     box-shadow: 6px 8px 18px rgba(0, 0, 0, 0.365);
 }
 
-form fieldset{
+form fieldset {
     padding: 0 1rem 1rem;
     display: grid;
     gap: 0.5rem;
@@ -245,12 +269,15 @@ form legend {
     font-size: 1.2rem;
 }
 
-input, textarea, label {
+input,
+textarea,
+label {
     font-size: 1rem;
     padding: 0.5rem 1rem;
 }
 
-input[type="radio"], input[type="checkbox"] {
+input[type="radio"],
+input[type="checkbox"] {
     width: 15px;
     height: 15px;
 }
@@ -288,6 +315,7 @@ button:hover {
 #index-body {
     background-color: var(--primary-color);
 }
+
 .principal-hero {
     position: relative;
 }
@@ -330,12 +358,13 @@ button:hover {
     color: var(--black-color);
     background-color: var(--alter-acent1-color);
 }
+
 .principal-hero a:hover {
     background-color: var(--acent1-color);
     color: var(--white-color);
 }
 
-#index-body .cards img{
+#index-body .cards img {
     height: 15rem;
 }
 
@@ -344,6 +373,7 @@ button:hover {
     font-size: 1.2rem;
     font-style: normal;
 }
+
 #index-body footer {
     color: var(--white-color);
 }
@@ -373,17 +403,17 @@ button:hover {
     float: right;
     margin-left: -15rem;
     color: var(--black-color);
-
-    label {
+}
+.container label {
         margin-left: 0.4rem;
         padding: 0;
         color: rgb(89, 84, 84);
     }
 
-    button {
+.container button {
         margin-top: 0.5rem;
     }
-}
+
 
 /* Trips Page */
 #trips-body {
@@ -391,7 +421,7 @@ button:hover {
 }
 
 .container-main {
-    width: 1200px;
+    width: 1550px;
     margin: auto;
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
@@ -404,8 +434,9 @@ button:hover {
 aside {
     padding: 1rem;
     background-color: var(--primary-color);
-    
+
 }
+
 aside h2 {
     color: var(--white-color);
 }
@@ -417,23 +448,72 @@ aside h2 {
     margin-top: 2rem;
     background-color: var(--white-color);
     border-spacing: 0;
-
-    thead {
-        text-align: left;
-        text-transform: uppercase;
-        color: var(--white-color);
-        background-color: var(--acent1-color);
-    }
-    thead th{
-        padding: 0.5rem 0.4rem;
-    }
-    td {
-        color: var(--black-color);
-        padding: 0.3rem 0.4rem;
-    }
+    border: 1px solid var(--black-color);
 }
 
+.level-table thead {
+    text-align: left;
+    text-transform: uppercase;
+    color: var(--white-color);
+    background-color: var(--acent1-color);
+}
+
+.level-table thead th {
+    padding: 0.5rem 0.4rem;
+}
+
+.level-table td {
+    color: var(--black-color);
+    padding: 0.3rem 0.4rem;
+}
+
+
 /* Table info */
+#trips-titule {
+    text-align: center;
+    color: var(--navy-color);
+}
+
+#trips-para {
+    text-align: center;
+    color: var(--white-color);
+    text-shadow: 2px 1px 6px black;
+    border-bottom: 1px solid rgba(95, 95, 95, 0.183);
+    padding-bottom: 1rem;
+}
+
+#link {
+    color: var(--navy-color);
+    text-shadow: none;
+}
+
+.trips {
+    color: var(--black-color);
+    font-size: 1.2rem;
+}
+
+.aside-trips {
+    width: 100%;
+}
+
+.aside-trips h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.aside-trips img {
+    width: 100%;
+    border: 1px solid black;
+}
+
+.aside-trips p {
+    padding: 0;
+    margin: 1rem 0.7rem;
+    color: var(--white-color);
+    text-align: justify;
+}
+
+/* Table Section */
 .info-table {
     margin-top: 2rem;
     width: 100%;
@@ -441,40 +521,49 @@ aside h2 {
     background-color: var(--white-color);
     border-spacing: 0;
     border: 1px solid var(--black-color);
-
-    thead > tr > th {
-        text-align: left;
-        padding: 0.3rem 1rem;
-    }
-
-    tbody > tr > td {
-        padding: 0 1rem;
-        color: #4e4e4e;
-    }
 }
+
+.info-table th {
+    text-align: left;
+    padding: 0.3rem 1rem;
+}
+
+.info-table tbody>tr>td {
+    padding: 0 1rem;
+    color: #4e4e4e;
+}
+
 .bg-yellow {
     background-color: yellow;
 }
+
 .bg-dark-ye {
-    background-color: #EBB93B;
+    color: var(--black-color);
+    background-color: yellow;
 }
+
 .bg-gray {
     border-spacing: 0;
     background-color: #ccc;
 }
+
 .bg-rose {
-    background-color: #BA4a69;
+    background-color: #8f3952;
 }
+
 .bg-green {
-    background-color: #318E31;
+    background-color: #1d551d;
 }
+
 .bg-blue {
-    background-color: #2658A9;
+    background-color: #1c407a;
 }
+
 .white {
     color: var(--white-color);
 }
+
 .style-header {
-    
+
     color: var(--black-color);
 }
